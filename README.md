@@ -1,19 +1,18 @@
-# OOAD-WEEK09 Homework
-##class Diagram
+# OOAD-WEEK010 Homework
+##Sequence Diagram
 
-###class Diagram1
+###Sequence Diagram1
 Code
 ```
 @startuml
-shoppingcenter <|-- foodland
-shoppingcenter <|-- shop
-shoppingcenter <|-- person
-shoppingcenter <|-- park
-shoppingcenter <|-- toilet
+participant User
+
+User -> System: messsage
+System -> User: messsage
 
 @enduml
 ```
 Diagram
-<img src="https://github.com/pongsakorn194/OOAD-WEEK09/blob/master/Homework/class%20diagram01.png?raw=true ">
+<img src="https://github.com/pongsakorn194/OOAD-WEEK10/blob/master/Homework/Sequence%20Diagram01.png?raw=true ">
 
-###class Diagram2
+###Sequence Diagram2
